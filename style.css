@@ -1,0 +1,60 @@
+/* General settings */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #28a745; /* green */
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+}
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+    background-color: #e8f5e9; /* light green */
+    padding: 3em;
+    text-align: center;
+}
+
+/* Sections */
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+section h2 {
+    color: #28a745;
+}
+
+/* Features list */
+#features ul {
+    list-style: none;
+    padding: 0;
+}
+#features li::before {
+    content: "✔️ ";
+    color: #28a745;
+}
+
+/* Footer */
+footer {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9em;
+}
